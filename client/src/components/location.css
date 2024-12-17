@@ -1,0 +1,15 @@
+.location_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.location_icon {
+    font-size: 2.5rem;
+}
+
+.location_desc {
+    font-size: 1.1rem;
+}

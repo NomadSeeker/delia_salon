@@ -1,0 +1,86 @@
+
+.hero {
+    height: 30vh;
+    overflow: hidden;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(82, 80, 80, 0.5)), url('../assets/hero.jpg') no-repeat center/cover;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: inherit;
+    row-gap: 1.3rem;
+    color: white;
+}
+
+.hero_title {
+    font-size: 1.6rem;
+}
+
+.hero_icon {
+    font-size: 2rem;
+}
+
+.bio_container {
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.bio_text {
+    text-align:justify
+}
+
+.bio_img { 
+    overflow: hidden;
+    
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.bio_picture {
+    width: 100%;
+}
+
+.services_container {
+    background-color: rgba(237, 110, 64, 0.915);
+}
+
+.services_title {
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-left: 0.4rem;
+}
+
+.services_text {
+    text-align: justify;
+    margin: 0.9rem;
+    
+}
+
+.services_text h4 {
+    font-size: 1.1rem;
+}
+
+.services_btn {
+    padding: 1.7rem 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+}
+
+.btn_icon {
+    position: relative;
+    top: 5px;
+}

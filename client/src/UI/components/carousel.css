@@ -1,0 +1,30 @@
+
+.carousel_container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+	height: 25vh;
+}
+
+.slide {
+    opacity: 1;
+    width: 80%;
+    
+}
+
+
+
+
+@keyframes transit {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
