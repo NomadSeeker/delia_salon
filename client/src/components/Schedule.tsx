@@ -16,12 +16,12 @@ const Schedule = () => {
                 </div>
                 <div className='schedule_time'>
                     <p>Lun: Cerrado</p>
-                    <p>Mar: 9am - 5pm</p>
-                    <p>Mier: 9am - 5pms</p>
-                    <p>Jue: 9am - 5pm</p>
-                    <p>Vier: 9am - 5pm</p>
-                    <p>Sáb: 9am - 5pm</p>
-                    <p>Dom: 9am - 5pm</p>
+                    <p>Mar: 9am-5pm</p>
+                    <p>Mier: 9am-5pms</p>
+                    <p>Jue: 9am-5pm</p>
+                    <p>Vier: 9am-5pm</p>
+                    <p>Sáb: 9am-5pm</p>
+                    <p>Dom: 9am-5pm</p>
                 </div>
             </div>
         </section>

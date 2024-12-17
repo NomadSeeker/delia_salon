@@ -48,40 +48,43 @@ const responsive ={
 const HeroCarousel = () => {
 
     return (
+      <div style={{zIndex: '1'}}>
         <Carousel
-            responsive={responsive}
-            additionalTransfrom={0}
-            autoPlay
-            autoPlaySpeed={6000}
-            centerMode={false}
-            className=""
-            containerClass="container"
-            // customDot={<CustomDot />}
-            // dotListClass=""
-       
-            focusOnSelect={false}
-            infinite
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            pauseOnHover
-            renderArrowsWhenDisabled={false}
-            renderButtonGroupOutside={false}
-            renderDotsOutside={false}
-            rewind={false}
-            rewindWithAnimation={false}
-            rtl={false}
-            shouldResetAutoplay
-            // showDots
-            sliderClass=""
-            slidesToSlide={1}
-            swipeable
-        >
-            {images.map(image => (
-              <img className="" src={image} alt={`${image}`} style={{display:'block', height:'100%', margin: 'auto', width:'100%'}}/>  
-            ))}
-            
+          responsive={responsive}
+          additionalTransfrom={0}
+          autoPlay
+          autoPlaySpeed={6000}
+          centerMode={false}
+          className=""
+          containerClass="container"
+          // customDot={<CustomDot />}
+          // dotListClass=""
+    
+          focusOnSelect={false}
+          infinite
+          itemClass=""
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          rewind={false}
+          rewindWithAnimation={false}
+          rtl={false}
+          shouldResetAutoplay
+          // showDots
+          sliderClass=""
+          slidesToSlide={1}
+          swipeable
+      >
+          {images.map(image => (
+            <img className="" src={image} alt={`${image}`} style={{display:'block', height:'100%', margin: 'auto', width:'100%'}}/>  
+          ))}
+                    
         </Carousel>
+      </div>
+        
     );
 }
 
